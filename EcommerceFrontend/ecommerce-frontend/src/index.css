@@ -1,0 +1,23 @@
+/* Reset de bază pentru layout */
+* {
+    box-sizing: border-box;
+}
+
+/* Elimină marginile implicite ale browserului */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Evită ca imaginile să depășească containerul */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Elimină stilurile implicite pentru linkuri */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
